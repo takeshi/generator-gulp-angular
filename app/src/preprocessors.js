@@ -87,6 +87,14 @@ module.exports = function(GulpAngularGenerator) {
         dest: 'tslint.json',
         template: false
       });
+
+      this.files.push({
+        src: 'tsconfig.json',
+        dest: 'tsconfig.json',
+        template: false
+      });
+
+
     }
   };
 
